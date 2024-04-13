@@ -35,8 +35,22 @@ p {
     border-radius: 30px;
   }
 
+  .btn-light {
+    background: #45BCE9;
+    border: 1px solid #45BCE9;
+    color: #fff;
+  }
+
+  .btn-light:hover{
+    background-color: #82d8f7;
+  }
+
   #bodyheader {
     padding-top: 20px;
+  }
+
+  .display-1{
+    text-transform: capitalize;
   }
   
   /* Utility Classes */
@@ -151,6 +165,39 @@ p {
   .card img {
     width: 100%;
     padding-bottom: 20px;
+  }
+
+  form label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+  }
+  
+  form .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  form .form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.7rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #000;
+    background: #45BCE9;
+    background-clip: padding-box;
+    border: 1px solid #F2F3F6;
+    border-radius: 0.25rem;
+  }
+
+  #contact form {
+    width: 40%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+  }
+  
+  #contact .btn {
+    width: 100%;
+    border-radius: 5px;
   }
 
   footer {
